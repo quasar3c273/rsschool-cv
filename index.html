@@ -3,15 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"
-		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>RSSchool Task HTML, CSS & Git Basic</title>
+	<link rel="stylesheet" href="./index.css">
+	<title>Mikhail Lapitskiy CV</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header>
-			Mikhail Lapitskiy CV
-		</header>
+<div class="wrapper">
+	<header class="header block">
+		<div class="header__avatar">
+			<img class="avatar" src="./cv-avatar.jpg" alt="Avatar for my CV">
+		</div>
+		<div class="header__info">
+			<h2>Mikhail Lapitskiy</h2>
+			<h3>Front-end developer</h3>
+		</div>
+	</header>
 	<article class="block">
 		<div class="section-name">Contact info</div>
 		<div class="section-info">
@@ -64,15 +71,20 @@
 		<div class="section-info">
 			<pre>
 				<code>
-					const plural = (single, plural, plural2, count) =&gt; {
-						if (count % 10 === 1 &amp;&amp; count % 100 !== 11) {
-							return single;
-						} else if (count % 10 &gt;= 2 &amp;&amp; count % 10 &lt;= 4 &amp;&amp; (count % 100 &lt; 10 || count % 100 &gt;= 20)) {
-							return plural;
-						} else {
-							return plural2;
-						}
-					};
+const plural = (single, plural, plural2, count) =&gt; {
+	if (count % 10 === 1 &amp;&amp; count % 100 !== 11) {
+		return single;
+	} else if (
+		count % 10 &gt;= 2
+		&amp;&amp; count % 10 &lt;= 4
+		&amp;&amp; (count % 100 &lt; 10
+		|| count % 100 &gt;= 20)
+	{
+		return plural;
+	} else {
+		return plural2;
+	}
+};
 				</code>
 			</pre>
 		</div>
@@ -107,7 +119,9 @@
 		</div>
 	</article>
 	<footer>
-		subscribe me
+		<img class="rss-logo" src="./rs-school-js.svg" alt="rss-logo">
+		<a class="" href="https://github.com/quasar3c273">My GitHub</a>
+		<span class="year">2021</span>
 	</footer>
 </div>
 </body>

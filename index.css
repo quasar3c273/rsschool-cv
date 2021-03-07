@@ -11,12 +11,22 @@
     border-radius: 15px;
 }
 
+a:visited {
+    color: black;
+}
+
+.year {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .block {
     min-height: 50px;
-    background-color: white;
+    background-color: #d39741;
     width: calc(100% - 20px);
     display: flex;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .avatar {
@@ -50,4 +60,18 @@
     align-items: center;
     padding-left: 20px;
     background-color: #e3f4fb;
+}
+
+footer {
+    display: flex;
+    width: calc(100% - 40px);
+    justify-content: space-around;
+    background-color: #d39741;
+    padding: 10px;
+    align-items: center;
+}
+
+.rss-logo {
+    max-width: 100px;
+    max-height: 50px;
 }
