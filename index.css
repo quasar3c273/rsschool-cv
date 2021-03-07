@@ -71,6 +71,11 @@ footer {
     align-items: center;
 }
 
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .rss-logo {
     max-width: 100px;
     max-height: 50px;
