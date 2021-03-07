@@ -11,6 +11,10 @@
     border-radius: 15px;
 }
 
+article {
+    width: 95%;
+}
+
 a:visited {
     color: black;
 }
