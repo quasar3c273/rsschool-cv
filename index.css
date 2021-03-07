@@ -1,0 +1,77 @@
+.wrapper {
+    max-width: 1280px;
+    background-color: #edefec;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+a:visited {
+    color: black;
+}
+
+.year {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block {
+    min-height: 50px;
+    background-color: #d39741;
+    width: calc(100% - 20px);
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.avatar {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.header {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-name {
+    display: flex;
+    flex: 1 1 35%;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4c977;
+}
+
+.section-info {
+    display: flex;
+    flex: 1 1 65%;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #e3f4fb;
+}
+
+footer {
+    display: flex;
+    width: calc(100% - 40px);
+    justify-content: space-around;
+    background-color: #d39741;
+    padding: 10px;
+    align-items: center;
+}
+
+.rss-logo {
+    max-width: 100px;
+    max-height: 50px;
+}

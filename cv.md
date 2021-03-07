@@ -31,10 +31,6 @@ ___
     - honesty,
     - responsibility.
 
-    - teamwork skills,
-    - honesty,
-    - responsibility.
-
 ### Code examples
 
 ```js
