@@ -11,6 +11,10 @@
     border-radius: 15px;
 }
 
+article {
+    width: 95%;
+}
+
 a:visited {
     color: black;
 }
@@ -69,6 +73,11 @@ footer {
     background-color: #d39741;
     padding: 10px;
     align-items: center;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .rss-logo {
