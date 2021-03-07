@@ -51,3 +51,7 @@ const plural = (single, plural, plural2, count) => {
 
 1 year at livemaster as a junior front-end developer.
 
+### Education
+
+- online courses [Vladilen Minin](https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw)
+- certificates from "SoloLearn.com"
