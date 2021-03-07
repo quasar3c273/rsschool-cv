@@ -1,1 +1,1 @@
-https://quasar3c273.github.io/rsschool-cv/cv
+https://quasar3c273.github.io/rsschool-cv/index
